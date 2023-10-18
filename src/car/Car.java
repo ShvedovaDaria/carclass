@@ -1,3 +1,5 @@
+package car;
+
 public class Car {
     // Приватні поля
     private String make;
@@ -65,7 +67,7 @@ public class Car {
     // Метод toString для представлення об'єкту у вигляді рядка
     @Override
     public String toString() {
-        return "Car{" +
+        return "car.Car{" +
                 "make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
